@@ -67,12 +67,3 @@ Reducer: The authSlice handles the fulfillment by saving data to both the Redux 
 UI Feedback: The AuthModal closes automatically, and the WelcomeBanner triggers a personalized greeting.
 
 
-📂 Project Structure Highlights
-
-src/features/auth/authSlice.js: Manages JWT tokens, user data, and modal visibility states.
-
-src/components/AuthModal.jsx: A reusable wrapper for the slide-down login/register forms.
-
-src/components/WelcomeBanner.jsx: Logic for the timed 5-second greeting message.
-
-src/components/LogOut.jsx: Handles clean session termination, clearing both state and storage.
